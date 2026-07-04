@@ -12,7 +12,6 @@ Although I did not finish on the public leaderboard, one of my submissions (**PR
 
 The final audit was published after the competition ended and summarizes the verified May 1 results together with the organizers' audit decisions.
 
-Oto naturalne tłumaczenie na angielski. Zachowałem sens, ale poprawiłem styl, aby brzmiało jak tekst napisany przez osobę posługującą się angielskim.
 
 
 ---
