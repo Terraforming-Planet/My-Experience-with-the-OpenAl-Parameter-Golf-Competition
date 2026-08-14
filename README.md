@@ -12,31 +12,7 @@ Although I did not finish on the public leaderboard, one of my submissions (**PR
 
 The final audit was published after the competition ended and summarizes the verified May 1 results together with the organizers' audit decisions.
 
----
 
-## New Research Direction — AI + Arctic 90°N Observation Station
-
-One idea I am now developing beyond the competition is an independent concept for a **permanently positioned scientific reference station at the geographic North Pole (90°N)**.
-
-The purpose would not be to replace satellite observation. The goal would be to combine continuous in-situ measurements with official Earth-observation data and use AI for:
-
-- satellite / ground measurement synchronization,
-- multimodal sensor fusion,
-- anomaly detection,
-- snow / ice / melt-pond classification,
-- uncertainty-aware sea-ice analysis,
-- calibration and validation workflows,
-- automatic quality control of long-term environmental datasets.
-
-A 90°N station could combine meteorological instruments, GNSS, LiDAR, radar, optical and thermal cameras, snow and ice probes, CTD chains, ADCP current profilers and under-ice sonar. These measurements could then be compared against products from missions such as **ESA CryoSat, NASA ICESat-2, Sentinel-1, Sentinel-2 and SMOS**.
-
-This must be treated as a **research and engineering concept**, not as a finished design. Maintaining a platform close to 90°N would require rigorous analysis of drifting and deforming pack ice, pressure ridges, ice loads, dynamic-positioning power, redundancy, polar-night operation, communications, logistics and environmental safety.
-
-It is also important not to describe the North Pole as a universal blind spot for every satellite. Coverage depends on orbital inclination, sensor swath and product design. The scientific value of the station would therefore come from being a carefully characterized physical reference site for selected missions, products and AI models.
-
-**Full note:** [Arctic 90°N Research Station — AI Research Note](./ARCTIC_90N_AI_RESEARCH_NOTE.md)
-
-> This is an independent research direction and does not imply endorsement, partnership or validation by OpenAI.
 
 ---
 
