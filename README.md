@@ -10,9 +10,13 @@ Parameter Golf was my first hands-on experience training AI models. The practica
 
 Working independently with ChatGPT's assistance, I prepared experimental datasets, ran experiments using **8× NVIDIA H100 GPUs**, and documented my work on GitHub.
 
-My [submission #2076](https://github.com/openai/parameter-golf/pull/2076) built on the existing PR #1991 approach. It was referenced in [audit #2146](https://github.com/openai/parameter-golf/pull/2146), but **was excluded from the leaderboard because its byte/PPM mixer failed the full-normalized-distribution audit**. This was not an award or an accepted record.
+My [submission #2076](https://github.com/openai/parameter-golf/pull/2076), built on PR #1991, was **explicitly named in the published audit covering the 1 May 2026 deadline**. [Audit #2146](https://github.com/openai/parameter-golf/pull/2146) covered **192 late-stage PRs**; it was published on 2 May and merged on 4 May.
 
-What I gained was practical experience: preparing data, running GPU experiments, reading logs, testing ideas and understanding why evaluation matters.
+For scale, the repository had [**2,048 PRs opened before the deadline**](https://github.com/openai/parameter-golf/pulls?q=is%3Apr+created%3A%3C2026-05-02T00%3A00%3A00Z). This counts pull requests, not distinct competitors.
+
+**For me, taking my first GPU experiments through to a public submission named in the audit was a major personal milestone.** The result was nevertheless excluded from the leaderboard: its byte/PPM mixer failed the full-normalized-distribution audit. Being named was not an award, endorsement or accepted record.
+
+The lasting achievement was practical experience: preparing data, running GPU experiments, reading logs and learning to validate results—skills I now apply beyond the competition.
 
 ## Terra Observation System — completed L4 experiments
 
