@@ -10,13 +10,17 @@ Parameter Golf was my first hands-on experience training AI models. The practica
 
 Working independently with ChatGPT's assistance, I prepared experimental datasets, ran experiments using **8× NVIDIA H100 GPUs**, and documented my work on GitHub.
 
-My [submission #2076](https://github.com/openai/parameter-golf/pull/2076), built on PR #1991, was **explicitly named in the published audit covering the 1 May 2026 deadline**. [Audit #2146](https://github.com/openai/parameter-golf/pull/2146) covered **192 late-stage PRs**; it was published on 2 May and merged on 4 May.
+My [submission #2076](https://github.com/openai/parameter-golf/pull/2076), built on PR #1991, [reported approximately **0.9296 BPB (bits per byte)** across three seeds](https://github.com/openai/parameter-golf/pull/2076#issuecomment-4358762060). **For my first AI-training project, seeing that number felt impressive and was a major personal milestone.** It is a reported experimental score, not a validated competition result.
+
+[I did not retain a complete set of the main training logs](https://github.com/openai/parameter-golf/pull/2076#issuecomment-4381591488). Log downloads failed, and the GPU pod had been removed before I could recover them. I reran training, but ran out of time and budget to complete the documentation.
+
+The submission was **explicitly named in the published audit covering the 1 May 2026 deadline**. [Audit #2146](https://github.com/openai/parameter-golf/pull/2146) covered **192 late-stage PRs**; it was published on 2 May and merged on 4 May.
 
 For scale, the repository had [**2,048 PRs opened before the deadline**](https://github.com/openai/parameter-golf/pulls?q=is%3Apr+created%3A%3C2026-05-02T00%3A00%3A00Z). This counts pull requests, not distinct competitors.
 
-**For me, taking my first GPU experiments through to a public submission named in the audit was a major personal milestone.** The result was nevertheless excluded from the leaderboard: its byte/PPM mixer failed the full-normalized-distribution audit. Being named was not an award, endorsement or accepted record.
+**Evaluation limitation:** the audit also identified [probability-normalization and byte-accounting problems](https://github.com/openai/parameter-golf/pull/2076#issuecomment-4364431665) in the byte/PPM evaluation. Missing logs were therefore not the only issue: the score was excluded from the leaderboard and is **not directly comparable with accepted records**. Being named in the audit was not an award or endorsement.
 
-The lasting achievement was practical experience: preparing data, running GPU experiments, reading logs and learning to validate results—skills I now apply beyond the competition.
+The lasting achievement was practical experience: preparing data, running GPU experiments and learning to validate results—skills I now apply beyond the competition.
 
 ## Terra Observation System — completed L4 experiments
 
